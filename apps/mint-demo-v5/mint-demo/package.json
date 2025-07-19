@@ -1,0 +1,14 @@
+{
+  "name": "mint-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cosmos-kit/keplr": "^2.15.1",
+    "@cosmos-kit/react": "^2.22.1",
+    "chain-registry": "^2.0.27"
+  }
+}
