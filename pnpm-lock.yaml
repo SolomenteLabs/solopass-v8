@@ -55,6 +55,9 @@ importers:
 
   apps/mint-demo-v5:
     dependencies:
+      '@cosmos-kit/react':
+        specifier: ^2.22.1
+        version: 2.22.1(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.34.0)(@interchain-ui/react@1.26.3(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/react':
         specifier: ^19.1.8
         version: 19.1.8
@@ -3597,6 +3600,42 @@ snapshots:
       - utf-8-validate
       - zod
 
+  '@cosmos-kit/react-lite@2.16.1(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.34.0)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@chain-registry/types': 0.46.15
+      '@cosmos-kit/core': 2.16.1
+      '@dao-dao/cosmiframe': 1.0.0(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.34.0)
+      '@types/react': 19.1.8
+      '@types/react-dom': 19.1.6(@types/react@19.1.8)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@cosmjs/amino'
+      - '@cosmjs/proto-signing'
+      - '@deno/kv'
+      - '@netlify/blobs'
+      - '@planetscale/database'
+      - '@react-native-async-storage/async-storage'
+      - '@upstash/redis'
+      - '@vercel/blob'
+      - '@vercel/kv'
+      - aws4fetch
+      - bufferutil
+      - db0
+      - debug
+      - encoding
+      - ioredis
+      - supports-color
+      - uploadthing
+      - utf-8-validate
+
   '@cosmos-kit/react-lite@2.16.1(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.34.0)(@types/react@19.1.8)(react-dom@18.3.1(react@16.14.0))(react@16.14.0)':
     dependencies:
       '@chain-registry/types': 0.46.15
@@ -3677,6 +3716,44 @@ snapshots:
       '@types/react': 19.1.8
       react: 16.14.0
       react-dom: 18.3.1(react@16.14.0)
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@cosmjs/amino'
+      - '@cosmjs/proto-signing'
+      - '@deno/kv'
+      - '@netlify/blobs'
+      - '@planetscale/database'
+      - '@react-native-async-storage/async-storage'
+      - '@upstash/redis'
+      - '@vercel/blob'
+      - '@vercel/kv'
+      - aws4fetch
+      - bufferutil
+      - db0
+      - debug
+      - encoding
+      - ioredis
+      - supports-color
+      - uploadthing
+      - utf-8-validate
+
+  '@cosmos-kit/react@2.22.1(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.34.0)(@interchain-ui/react@1.26.3(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@chain-registry/types': 0.46.15
+      '@cosmos-kit/core': 2.16.1
+      '@cosmos-kit/react-lite': 2.16.1(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.34.0)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@interchain-ui/react': 1.26.3(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@react-icons/all-files': 4.1.0(react@18.3.1)
+      '@types/react': 19.1.8
+      '@types/react-dom': 19.1.6(@types/react@19.1.8)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
